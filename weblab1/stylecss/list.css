@@ -52,3 +52,6 @@ td > input{
 #thead{
     font-weight: bold;
 }
+#out{
+    padding: 20px;
+}
