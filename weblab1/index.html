@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>web lab1</title>
+    <link rel="stylesheet" href="stylecss/list.css">
+</head>
+<body>
+    <header>Лавлинский Михаил Сергеевич, группа P3114, Вариант №2509</header>
+    <hr>
+   <div id="img">
+       <img src="pictures/pic.png" alt="Область попадания" height="400" width="400">
+   </div>
+   <form name="form" action="server.php" method="post">
+   <table align="center" border="1">
+       <div class="tname" >Таблица для задания координат:</div>
+       <thead id="thead" >
+          <tr>
+              <td>Названия Координат:</td>
+              <td>Поля ввода значений:</td>
+          </tr>
+       </thead>
+       <tbody>
+          <tr>
+              <td>Координата X:</td>
+              <td>
+                  <input class="tfocus"  type="text" name="Xbtn" size="25" value="" placeholder="Введите число от -5 до 3" onchange="check()">
+              </td>
+          </tr>
+         <tr>
+             <td>Координата Y:</td>
+             <td>
+                 <input class="tfocus"  type="text" name="Ybtn" size="25" value="" placeholder="Введите число от -5 до 3" onchange="check()">
+             </td>
+         </tr>
+         <tr>
+             <td>Изменение R:</td>
+             <td class="tfocus">
+                 <div class="r"><input class="Rb" name="R" type="radio" value="1" checked> 1</div>
+                 <div class="r"><input class="Rb" name="R" type="radio" value="2"> 2</div>
+                 <div class="r"><input class="Rb" name="R" type="radio" value="3"> 3</div>
+                 <div class="r"><input class="Rb" name="R" type="radio" value="4"> 4</div>
+                 <div class="r"><input class="Rb" name="R" type="radio" value="5"> 5</div>
+             </td>
+         </tr>
+         <tr>
+             <td>Получить результат:</td>
+             <td> <input class="tfocus" id="button" type="submit" value="Отправить" disabled></td>
+         </tr>
+       </tbody>
+   </table>
+   </form>
+   <table id="out" border="1" align="center">
+       <div class="tname">Таблица с результатами</div>
+       <thead>
+         <tr>
+             <td>X</td>
+             <td>Y</td>
+             <td>R</td>
+             <td>Результат</td>
+             <td>Текущее время</td>
+             <td>Время работы</td>
+         </tr>
+       </thead>
+   </table>
+    <script src="request.js"></script>
+    <script src="checker.js"></script>
+
+</body>
+</html>
