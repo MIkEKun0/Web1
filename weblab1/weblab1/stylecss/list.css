@@ -1,0 +1,57 @@
+body{
+    background-color: antiquewhite;
+}
+header{
+    font-family: fantasy;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+h1{
+    font-family: fantasy;
+    font-size: 20px;
+    text-align: center;
+}
+
+table{
+    table-layout: fixed;
+    width: 1200px;
+    text-align: center;
+
+}
+tr:hover{
+    font-weight: bold;
+}
+.tfocus:focus{
+    border: 1px solid #29B0D9;
+    background: #ffe;
+}
+.tname{
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.r{
+    margin: 5px;
+}
+td > input{
+    margin: 5px;
+}
+#img{
+    padding: 30px;
+    text-align: center;
+}
+#button{
+    color: white;
+    background-color: cornflowerblue;
+    margin: 10px;
+    font-size: medium;
+}
+
+#thead{
+    font-weight: bold;
+}
+#out{
+    padding: 20px;
+}
