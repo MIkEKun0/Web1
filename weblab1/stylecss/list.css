@@ -17,26 +17,16 @@ table{
     table-layout: fixed;
     width: 1200px;
     text-align: center;
-
-}
-tr:hover{
-    font-weight: bold;
 }
 .tfocus:focus{
     border: 1px solid #29B0D9;
     background: #ffe;
 }
-.tname{
-    font-family: fantasy;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-}
 .r{
     margin: 5px;
 }
-td > input{
-    margin: 5px;
+.r > input:hover{
+    font-weight: bold;
 }
 #img{
     padding: 30px;
@@ -48,10 +38,18 @@ td > input{
     margin: 10px;
     font-size: medium;
 }
-
-#thead{
-    font-weight: bold;
-}
 #out{
-    padding: 20px;
+    margin-right: 315px;
+    width: 1200px;
+    text-align: center;
 }
+
+#out  td.scroll{
+    width: 100px;
+    overflow-x: scroll;
+}
+.coordinates{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
